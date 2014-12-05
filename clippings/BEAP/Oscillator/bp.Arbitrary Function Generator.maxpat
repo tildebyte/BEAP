@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
-			"architecture" : "x86"
+			"revision" : 9,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 69.0, 70.0, 1188.0, 688.0 ],
+		"rect" : [ 69.0, 90.0, 1188.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,11 +41,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
-							"architecture" : "x86"
+							"revision" : 9,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 69.0, 70.0, 271.0, 116.0 ],
+						"rect" : [ 69.0, 90.0, 271.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -653,25 +653,6 @@
 									"presentation_rect" : [ 2.0, 20.0, 268.0, 17.0 ],
 									"text" : "ARBITRARY FUNCTION GENERATOR",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 191.236206, 397.0, 59.5, 20.0 ],
-									"restore" : 									{
-										"Rate" : [ 0.0 ]
-									}
-,
-									"text" : "autopattr",
-									"varname" : "u773000138"
 								}
 
 							}
