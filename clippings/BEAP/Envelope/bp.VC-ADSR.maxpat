@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 0,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -35,7 +35,6 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,8 +55,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -88,7 +87,6 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -159,8 +157,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 223.0, 767.643311, 17.0, 13.902634 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 71.0, 5.0, 6.0, 6.0 ],
-									"rounded" : 8.0,
+									"presentation_rect" : [ 71.0, 2.0, 10.049012, 10.748189 ],
 									"style" : "",
 									"text" : ""
 								}
@@ -268,8 +265,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 97.986206, 722.901245, 17.0, 13.902634 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 71.0, 5.0, 6.0, 6.0 ],
-									"rounded" : 8.0,
+									"presentation_rect" : [ 31.0, 2.0, 10.049012, 10.748189 ],
 									"style" : "",
 									"text" : ""
 								}
@@ -1562,8 +1558,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 0,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1595,7 +1591,6 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
-										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2697,7 +2692,7 @@
 													"destination" : [ "obj-17", 4 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 822.357117, 757.0, 696.1, 757.0 ],
+													"midpoints" : [ 822.357117, 757.0, 696.099976, 757.0 ],
 													"source" : [ "obj-23", 0 ]
 												}
 
@@ -3180,7 +3175,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u369006007"
+									"varname" : "u308006284"
 								}
 
 							}
@@ -3274,23 +3269,58 @@
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"background" : 1,
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
+									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"id" : "obj-15",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "background_sm.maxpat",
-									"numinlets" : 0,
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
 									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 18.0, 19.0, 239.0, 10.0 ],
+									"patching_rect" : [ 18.0, 21.711639, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 309.0, 132.0 ],
-									"viewvisibility" : 1
+									"presentation_rect" : [ 0.0, 37.0, 425.0, 60.338158 ],
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"background" : 1,
+									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
+									"id" : "obj-18",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 62.337189, 21.711639, 37.0, 5.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 17.0, 425.0, 80.338158 ],
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-21",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 105.079285, 21.711639, 37.0, 5.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 425.0, 133.0 ],
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
@@ -4024,28 +4054,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-45" : [ "release_curve", "release_curve", 0 ],
-			"obj-2::obj-47" : [ "attack_curve", "attack_curve", 0 ],
-			"obj-2::obj-137" : [ "ReleaseCV", "ReleaseCV", 0 ],
-			"obj-2::obj-151" : [ "Release", "Release", 0 ],
-			"obj-2::obj-90" : [ "AttackCV", "AttackCV", 0 ],
 			"obj-2::obj-150" : [ "Decay", "Decay", 0 ],
-			"obj-2::obj-46" : [ "decay_curve", "decay_curve", 0 ],
-			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
+			"obj-2::obj-151" : [ "Release", "Release", 0 ],
+			"obj-2::obj-47" : [ "attack_curve", "attack_curve", 0 ],
+			"obj-2::obj-90" : [ "AttackCV", "AttackCV", 0 ],
 			"obj-2::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-2::obj-144" : [ "SustainCV", "SustainCV", 0 ],
+			"obj-2::obj-46" : [ "decay_curve", "decay_curve", 0 ],
 			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
-			"obj-2::obj-122" : [ "DecayCV", "DecayCV", 0 ]
+			"obj-2::obj-122" : [ "DecayCV", "DecayCV", 0 ],
+			"obj-2::obj-45" : [ "release_curve", "release_curve", 0 ],
+			"obj-2::obj-137" : [ "ReleaseCV", "ReleaseCV", 0 ],
+			"obj-2::obj-144" : [ "SustainCV", "SustainCV", 0 ],
+			"obj-2::obj-174" : [ "Attack", "Attack", 0 ]
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"embedsnapshot" : 0
 	}
 

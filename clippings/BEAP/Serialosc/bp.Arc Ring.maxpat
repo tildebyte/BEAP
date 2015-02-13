@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -35,7 +35,6 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -88,7 +87,6 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
-						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.913022, 0.913022, 0.913022, 0.0 ],
@@ -101,7 +99,7 @@
 									"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patching_rect" : [ 588.25, 881.14801, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 34.0, 4.0, 10.0, 10.0 ],
+									"presentation_rect" : [ 46.0, 4.0, 10.0, 10.0 ],
 									"style" : ""
 								}
 
@@ -138,7 +136,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u691007413"
+									"varname" : "u463009424"
 								}
 
 							}
@@ -1102,17 +1100,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-80::obj-70" : [ "Mute[10]", "Mute", 0 ],
+			"obj-80::obj-12" : [ "Mute[11]", "Mute", 0 ],
 			"obj-80::obj-87" : [ "Range[3]", "Range", 0 ],
 			"obj-80::obj-75" : [ "SampleRate[3]", "SampleRate", 0 ],
-			"obj-80::obj-36" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-80::obj-12" : [ "Mute[11]", "Mute", 0 ],
-			"obj-80::obj-70" : [ "Mute[10]", "Mute", 0 ]
+			"obj-80::obj-36" : [ "live.tab[7]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "~/Documents/Beap/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
