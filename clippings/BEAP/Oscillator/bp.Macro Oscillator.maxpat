@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
-			"architecture" : "x86",
+			"revision" : 2,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 825.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 825.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 2,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 358.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 358.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,14 +88,18 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-35",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 676.302124, 724.213379, 67.0, 22.0 ],
+									"patching_rect" : [ 676.302124, 724.213379, 63.0, 35.0 ],
 									"style" : "",
 									"text" : "pastebang"
 								}
@@ -102,12 +107,15 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "types" ],
-									"patching_rect" : [ 676.302124, 816.38501, 87.0, 22.0 ],
+									"patching_rect" : [ 676.302124, 816.38501, 83.0, 35.0 ],
 									"style" : "",
 									"text" : "trigger b types"
 								}
@@ -115,12 +123,14 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.173828, 137.335846, 232.0, 33.0 ],
+									"patching_rect" : [ 17.173828, 137.335846, 214.0, 47.0 ],
 									"style" : "",
 									"text" : "## Multiple oscillator models that share the same two CV modulation inputs ## "
 								}
@@ -146,11 +156,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 716.802124, 984.163269, 128.0, 22.0 ],
+									"patching_rect" : [ 716.802124, 984.163269, 124.0, 35.0 ],
 									"style" : "",
 									"text" : "prepend patchername"
 								}
@@ -173,14 +184,14 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0,
 									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+									"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-9",
 									"items" : [ "bp.Detuned Ring Modulated Sines.maxpat", ",", "bp.Dual Square Sync.maxpat", ",", "bp.FM-OD.maxpat", ",", "bp.MIO.maxpat", ",", "bp.Morphing Geometrics.maxpat", ",", "bp.Tuned Delay.maxpat", ",", "bp.Tuned Noise.maxpat" ],
@@ -188,12 +199,25 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 676.302124, 919.206665, 100.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 81.586617, 66.338158, 96.413376, 19.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Macro",
+											"parameter_shortname" : "Macro",
+											"parameter_type" : 3,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0 ],
+											"parameter_invisible" : 1
+										}
+
+									}
+,
 									"style" : "",
-									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ]
+									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"varname" : "Macro"
 								}
 
 							}
@@ -226,15 +250,15 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-61",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 676.302124, 869.229858, 265.0, 23.0 ],
+									"patching_rect" : [ 676.302124, 869.229858, 261.0, 38.0 ],
 									"style" : "",
 									"text" : "folder C74:/packages/Beap/misc/marco_osc"
 								}
@@ -279,6 +303,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 3,
@@ -288,8 +313,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
-											"architecture" : "x86",
+											"revision" : 2,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -319,6 +344,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1015,16 +1041,10 @@
 												}
 
 											}
- ],
-										"bgfillcolor_type" : "gradient",
-										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"bgfillcolor_angle" : 270.0,
-										"bgfillcolor_proportion" : 0.39
+ ]
 									}
 ,
-									"patching_rect" : [ 502.320953, 632.686401, 71.0, 22.0 ],
+									"patching_rect" : [ 502.320953, 632.686401, 67.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1288,11 +1308,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-11",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1105.689331, 159.887711, 45.0, 23.0 ],
+									"patching_rect" : [ 1105.689331, 159.887711, 43.0, 38.0 ],
 									"style" : "",
 									"text" : "sig~ 2"
 								}
@@ -1422,11 +1443,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-66",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 774.945923, 94.394562, 45.0, 23.0 ],
+									"patching_rect" : [ 774.945923, 94.394562, 43.0, 38.0 ],
 									"style" : "",
 									"text" : "sig~ 2"
 								}
@@ -1529,11 +1551,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-88",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 496.945953, 191.990631, 109.0, 37.0 ],
+									"patching_rect" : [ 496.945953, 191.990631, 103.0, 51.0 ],
 									"style" : "",
 									"text" : "add 5v to bring to 0-10v range"
 								}
@@ -1604,11 +1626,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 17.173828, 176.992279, 58.0, 22.0 ],
+									"patching_rect" : [ 17.173828, 176.992279, 54.0, 35.0 ],
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"CV3" : [ 0.0 ],
@@ -1616,6 +1639,7 @@
 										"ColorCV" : [ 0.0 ],
 										"Freq" : [ 261.62558 ],
 										"FreqMode" : [ 1.0 ],
+										"Macro" : [ 0 ],
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
 										"Timbre" : [ 0.0 ],
@@ -1624,7 +1648,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u975001167"
+									"varname" : "u490002338"
 								}
 
 							}
@@ -1830,10 +1854,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-109",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.173828, 111.394562, 144.0, 17.0 ],
+									"patching_rect" : [ 17.173828, 111.394562, 140.0, 27.0 ],
 									"style" : "",
 									"text" : "October  2013 Matthew Davidson"
 								}
@@ -2441,7 +2466,7 @@
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 537.820923, 661.686401, 676.591553, 661.686401, 676.591553, 455.475433, 611.582031, 455.475433 ],
+									"midpoints" : [ 535.820953, 661.686401, 676.591553, 661.686401, 676.591553, 455.475433, 611.582031, 455.475433 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -2515,7 +2540,7 @@
 									"destination" : [ "obj-32", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 611.582031, 573.936401, 537.820923, 573.936401 ],
+									"midpoints" : [ 611.582031, 573.936401, 535.820953, 573.936401 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -2758,38 +2783,35 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-35::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
-			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
-			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-9" : [ "Macro", "Macro", 0 ],
 			"obj-38::obj-81" : [ "Color", "Color", 0 ],
-			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ]
+			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
+			"obj-38::obj-35::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
+			"obj-38::obj-51" : [ "Freq", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.FM-OD.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
+				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
+				"bootpath" : "C74:/packages/Beap/misc/marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
