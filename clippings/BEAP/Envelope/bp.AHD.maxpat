@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -57,12 +57,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 152.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 152.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -91,6 +91,60 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 39.0, 172.0, 58.0, 22.0 ],
+									"restore" : 									{
+										"Attack" : [ 1.0 ],
+										"Decay" : [ 100.0 ],
+										"Hold" : [ 500.0 ],
+										"mute" : [ 0.0 ]
+									}
+,
+									"style" : "",
+									"text" : "autopattr",
+									"varname" : "u918004282"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.701961 ],
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-30",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 689.340515, 422.910736, 44.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 55.0, 42.292229, 44.0, 47.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Hold",
+											"parameter_shortname" : "Hold",
+											"parameter_type" : 0,
+											"parameter_mmax" : 10000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 500.0 ],
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 4.0
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.701961 ],
+									"varname" : "Hold"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "comment",
@@ -211,7 +265,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -271,7 +325,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 1,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -884,7 +938,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1484,62 +1538,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"id" : "obj-32",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 689.340515, 423.706421, 44.0, 47.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 55.0, 42.292229, 44.0, 47.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Hold",
-											"parameter_shortname" : "Hold",
-											"parameter_type" : 0,
-											"parameter_mmax" : 10000.0,
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 500 ],
-											"parameter_unitstyle" : 2,
-											"parameter_exponent" : 4.0
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Hold"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 26.173828, 112.623154, 59.5, 22.0 ],
-									"restore" : 									{
-										"Attack" : [ 1.0 ],
-										"Decay" : [ 100.0 ],
-										"Hold" : [ 500.0 ],
-										"mute" : [ 0.0 ]
-									}
-,
-									"style" : "",
-									"text" : "autopattr",
-									"varname" : "u332005349"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
@@ -1786,19 +1784,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
+									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-31", 1 ]
+									"source" : [ "obj-30", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
+									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-32", 0 ]
+									"source" : [ "obj-31", 1 ]
 								}
 
 							}
@@ -1905,15 +1903,14 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-32" : [ "Hold", "Hold", 0 ],
 			"obj-10::obj-18" : [ "Decay", "Decay", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-30" : [ "Hold", "Hold", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

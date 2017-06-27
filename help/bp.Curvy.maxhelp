@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 106.0, 1029.0, 683.0 ],
+		"rect" : [ 55.0, 79.0, 669.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,12 +112,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 132.0, 1029.0, 657.0 ],
+						"rect" : [ 55.0, 105.0, 669.0, 632.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -150,16 +150,19 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"bubble" : 1,
+									"bubblepoint" : 0.99,
+									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-6",
+									"id" : "obj-2",
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.0, 575.0, 232.0, 25.0 ],
-									"presentation_rect" : [ 355.0, 558.0, 0.0, 0.0 ],
+									"patching_rect" : [ 48.5, 306.0, 101.0, 84.0 ],
+									"presentation_rect" : [ 370.0, 495.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "Here is the output from Curvy 0-5 V"
+									"text" : "MIDI notes 0-15 map to the 16 curve shapes"
 								}
 
 							}
@@ -169,13 +172,32 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-4",
+									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 262.0, 449.0, 336.0, 25.0 ],
+									"patching_rect" : [ 183.0, 599.0, 232.0, 25.0 ],
 									"style" : "",
-									"text" : "Notes map to modulation wave shapes and scaling"
+									"text" : "Here is the output from Curvy 0-5 V"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"bubble" : 1,
+									"bubblepoint" : 0.0,
+									"bubbleside" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 301.0, 416.0, 144.0, 55.0 ],
+									"style" : "",
+									"text" : "MIDI notes 0-127 map to 0-100% scaling"
 								}
 
 							}
@@ -199,12 +221,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 66.0, 235.0, 232.0, 116.0 ],
+										"rect" : [ 62.0, 208.0, 232.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -423,7 +445,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -779,7 +801,7 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 0,
-																			"revision" : 3,
+																			"revision" : 2,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -2206,7 +2228,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u188009126"
+													"varname" : "u001006261"
 												}
 
 											}
@@ -2500,7 +2522,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 7.0, 537.0, 121.0, 116.0 ],
+									"patching_rect" : [ 48.5, 543.0, 121.0, 116.0 ],
 									"varname" : "bp.History",
 									"viewvisibility" : 1
 								}
@@ -2566,7 +2588,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 7.0, 399.0, 242.0, 116.0 ],
+									"patching_rect" : [ 48.5, 411.0, 242.0, 116.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2590,12 +2612,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 737.0, 596.0, 111.0, 116.0 ],
+										"rect" : [ 317.0, 208.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2753,7 +2775,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u349008411"
+													"varname" : "u003006257"
 												}
 
 											}
@@ -2862,7 +2884,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 678.0, 464.0, 111.0, 116.0 ],
+									"patching_rect" : [ 262.0, 103.0, 111.0, 116.0 ],
 									"varname" : "GlobalTransport",
 									"viewvisibility" : 1
 								}
@@ -2933,6 +2955,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 16.5, 397.5, 58.0, 397.5 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -3010,34 +3033,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-18::obj-20" : [ "enable", "enable", 0 ],
-			"obj-2::obj-14::obj-31" : [ "Bottom", "Bottom", 0 ],
-			"obj-2::obj-14::obj-29" : [ "mute", "mute", 0 ],
-			"obj-2::obj-14::obj-42" : [ "NoteDur", "NoteDur", 0 ],
-			"obj-2::obj-13::obj-42" : [ "NoteDur[1]", "NoteDur", 0 ],
-			"obj-2::obj-1::obj-1" : [ "MIDI_note_curve", "MIDI_note_curve", 0 ],
-			"obj-2::obj-14::obj-32" : [ "Top", "Top", 0 ],
-			"obj-2::obj-1::obj-7" : [ "curve", "curve", 0 ],
-			"obj-2::obj-13::obj-29" : [ "mute[1]", "mute", 0 ],
-			"obj-2::obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-2::obj-1::obj-11" : [ "scale", "scale", 0 ],
-			"obj-2::obj-18::obj-27" : [ "led", "led", 0 ],
-			"obj-2::obj-1::obj-9" : [ "trigger_LED", "trigger_LED", 0 ],
-			"obj-2::obj-18::obj-478" : [ "swing", "swing", 0 ],
-			"obj-2::obj-15::obj-16" : [ "range", "range", 0 ],
-			"obj-2::obj-1::obj-3" : [ "MIDI_note_scale", "MIDI_note_scale", 0 ],
-			"obj-2::obj-13::obj-22" : [ "ActivityLED[1]", "ActivityLED", 0 ],
-			"obj-2::obj-14::obj-22" : [ "ActivityLED", "ActivityLED", 0 ],
-			"obj-2::obj-13::obj-46" : [ "Loop[1]", "Loop", 0 ],
-			"obj-2::obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
-			"obj-2::obj-14::obj-46" : [ "Loop", "Loop", 0 ],
-			"obj-2::obj-13::obj-32" : [ "Top[1]", "Top", 0 ],
-			"obj-2::obj-18::obj-29" : [ "mute[2]", "mute", 0 ],
-			"obj-2::obj-13::obj-31" : [ "Bottom[1]", "Bottom", 0 ],
-			"obj-2::obj-1::obj-452" : [ "Pulse", "Pulse", 0 ],
+			"obj-2::obj-13::obj-42" : [ "NoteDur", "NoteDur", 0 ],
 			"obj-2::obj-7::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-2::obj-13::obj-22" : [ "ActivityLED", "ActivityLED", 0 ],
 			"obj-2::obj-18::obj-34" : [ "Pulse[1]", "Pulse", 0 ],
-			"obj-2::obj-18::obj-476" : [ "swing.amt", "swing.amt", 0 ]
+			"obj-2::obj-18::obj-20" : [ "enable", "enable", 0 ],
+			"obj-2::obj-1::obj-7" : [ "curve", "curve", 0 ],
+			"obj-2::obj-14::obj-31" : [ "Bottom[1]", "Bottom", 0 ],
+			"obj-2::obj-1::obj-3" : [ "MIDI_note_scale", "MIDI_note_scale", 0 ],
+			"obj-2::obj-13::obj-29" : [ "mute", "mute", 0 ],
+			"obj-2::obj-14::obj-29" : [ "mute[1]", "mute", 0 ],
+			"obj-2::obj-1::obj-452" : [ "Pulse", "Pulse", 0 ],
+			"obj-2::obj-18::obj-27" : [ "led", "led", 0 ],
+			"obj-2::obj-1::obj-11" : [ "scale", "scale", 0 ],
+			"obj-2::obj-14::obj-22" : [ "ActivityLED[1]", "ActivityLED", 0 ],
+			"obj-2::obj-18::obj-476" : [ "swing.amt", "swing.amt", 0 ],
+			"obj-2::obj-14::obj-42" : [ "NoteDur[1]", "NoteDur", 0 ],
+			"obj-2::obj-13::obj-31" : [ "Bottom", "Bottom", 0 ],
+			"obj-2::obj-1::obj-9" : [ "trigger_LED", "trigger_LED", 0 ],
+			"obj-2::obj-14::obj-46" : [ "Loop[1]", "Loop", 0 ],
+			"obj-2::obj-13::obj-46" : [ "Loop", "Loop", 0 ],
+			"obj-2::obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
+			"obj-2::obj-18::obj-29" : [ "mute[2]", "mute", 0 ],
+			"obj-2::obj-18::obj-478" : [ "swing", "swing", 0 ],
+			"obj-2::obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
+			"obj-2::obj-14::obj-32" : [ "Top[1]", "Top", 0 ],
+			"obj-2::obj-1::obj-1" : [ "MIDI_note_curve", "MIDI_note_curve", 0 ],
+			"obj-2::obj-15::obj-16" : [ "range", "range", 0 ],
+			"obj-2::obj-13::obj-32" : [ "Top", "Top", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3083,15 +3106,15 @@
 				"name" : "bp.Curvy.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"Bottom" : 69.0,
+						"Bottom" : 0.0,
 						"Bottom[1]" : 0.0,
 						"Loop" : 32.0,
 						"Loop[1]" : 32.0,
-						"NoteDur" : 0.0,
-						"NoteDur[1]" : 0.0,
+						"NoteDur" : 10.23622,
+						"NoteDur[1]" : 11.023623,
 						"Tempo" : 80.0,
-						"Top" : 114.0,
-						"Top[1]" : 35.0,
+						"Top" : 31.0,
+						"Top[1]" : 127.0,
 						"Transport" : 1.0,
 						"curve" : 15.0,
 						"enable" : 1.0,
@@ -3105,7 +3128,7 @@
 						"blob" : 						{
 							"Pulse" : [ "8n" ],
 							"Pulse[1]" : [ "8n" ],
-							"scale" : [ 70.866142 ]
+							"scale" : [ 60.629921 ]
 						}
 
 					}
